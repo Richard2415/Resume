@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resume using Html & CSS</title>
+	<link rel="stylesheet" href="style.css">
+	<linl rel="stylesheet" href="all.min.css"></linl>
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+	          	 integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+</head>
+<body>
+
+	<div class="print-area">
+		<div class="header">
+         <img src="./Pic1.jpeg">
+		 <div class="header-text">
+			 <h1>RICHARD SELVARAJ</h1>
+		      <P>Full Stack Developer</P>
+		 </div>
+		</div>
+
+		<div class="content">
+			<div class="left-area">
+				<div class="contact">
+					<h4>&#9742CONTACT</h4>
+					<i class="fa fa-address-book"></i><h5>Phone</h5>
+					<P>8838191334</P>
+					<h5>&#9993Email</h5>
+					<p>richardselvaraj07@gmail.com</p>
+					<h5>Home</h5>
+					<p>453,Masilamani Puram,</p>
+					<h5>City</h5>
+					<p>Dindigul</p>
+				</div>
+			
+			
+                <div class="skills">
+				 <h1>SKILLS</h1>
+				  <div class="bars">
+					<div class="bar">
+						<p>JAVASCRIPT</p>
+						<span></span>
+					</div>
+					<div class="bar">
+						<p>HTML/CSS</p>
+						<span></span>
+					</div>
+					<div class="bar">
+						<p>Photoshop</p>
+						<span></span>
+					</div>
+					<div class="bar">
+						<p>C++</p>
+						<span></span>
+				    </div>
+				  </div>
+				</div>
+				<div class="follow">
+				    <h1>FOLLOW ME</h1>
+					<h4>Facebook</h4>
+					<p>facebook.com/username</p>
+					<h4>Instagram</h4>
+					<p>Instagram.com/usename</p>
+					<h4>Twitter</h4>
+					<p>Twitter.com/usename</p>
+					<h4>LinkedIn</h4>
+					<p>linkedin.com/usename</p>
+						
+				</div>
+			</div>
+
+			
+			
+	     <div class="right-area">
+			<div class="about">
+				<h1><span><i class='fas fa-suitcase-rolling' style='font-size:30px color'></i></span>ABOUT ME</h1>
+				<p>Passionate and enthusiastic professional looking for opportunities to exhibit my treasured <br>competence and to dedicate my involvement in a well functioning team.</p>
+			</div>
+		  <div class="work">
+			<h1><span><i class="fas fa-suitcase-rolling"></i></span>WORK EXPERIENCE</h1>
+		    <div class="work-group">
+			  <h3>PROJECT</h3>
+			   <h4>Optimization of RHCM in Injection Molding
+			   </h4>
+			   <span>2017/2018</span>
+			   <p>The rapid heating cycle has the advantage of improving product quality in injection molding. Through FSI and ANSYS, by providing holes over the mold cavity based on the results from the numerical calculation, it leads to the improvement of Surface Hardness as well as Surface finish.
+			   </p>
+		   </div>
+		    <div class="work-group">
+			 <h3>WORKSHOP</h3>
+			 <h4>SSM IET College</h4>
+			 <span>2016/2017</span>
+			 <p>Participated in “2nd FORMULA GREEN” organized by Indian Society of New Era Engineers at Kari Motor Speedway, coimbatore and selected for final round.
+			 </p>
+
+		    </div>
+		  </div>
+		  <div class="education">
+			<h1><span><i class="fas fa-suitcase-book"></i></span>EDUCATION</h1>			  
+			  <div class="edu-group">
+				<h4>SSM INSTITUTE OF ENGINEERING AND TECHNOLOGY</h4>
+				<span>2014/2018<br>71%</span>
+				<p>Bachelor of Mechanical Engineering</p>
+			  </div>
+			  <div class="edu-group">
+				<h4>VIVEHAM HIGHER SECONDARY SCHOOL</h4>
+				<span>2012/2014<br>75%</span>
+				<p>HSC</p>
+			  </div>
+			  <div class="edu-group">
+				<h4>MSP HIGHER SECONDARY SCHOOL</h4>
+				<span>2010/2012<br>79%</span>
+				<p>SSLC</p>
+			  </div>
+		  </div>
+
+	     </div>
+				
+				
+
+		</div>
+
+
+
+
+	</div>
+
+	<button>Print CV</button>
+<script src="all.in.js"></script>
+
+<script>
+	var btn = document.querySelector("button");
+	btn.onclick = () => {
+		window.print();
+	}
+</script>
+</body>
+</html>
